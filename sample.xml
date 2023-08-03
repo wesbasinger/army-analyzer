@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<army name="2K ork list" points="2000">
+    <unit name="WARBOSS IN MEGA ARMOUR" count="1">
+        <model name="Warboss in Mega Armour" count="1">
+            <movement>5</movement>
+            <toughness>6</toughness>
+            <save>2</save>
+            <wounds>7</wounds>
+            <leadership>6</leadership>
+            <objective-control>1</objective-control>
+            <weapons>
+                <weapon name="big shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>3</attacks>
+                    <bs>4</bs>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="uge choppa" type="melee">
+                    <attacks>4</attacks>
+                    <ws>2</ws>
+                    <strength>12</strength>
+                    <ap>-2</ap>
+                    <damage>2</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="WEIRDBOY" count="1">
+        <model name="Weirdboy" count="1">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>4</wounds>
+            <leadership>7</leadership>
+            <objective-control>1</objective-control>
+            <weapons>
+                <weapon name="eadbanger" type="ranged">
+                    <range>24</range>
+                    <attacks>1</attacks>
+                    <bs>4</bs>
+                    <strength>6</strength>
+                    <ap>-3</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="weirdboy staff" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>8</strength>
+                    <ap>-1</ap>
+                    <damage>D3</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="BEAST SNAGGA BOYZ" count="3">
+        <model name="Beast Snagga Nob" count="1">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>2</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="power snappa" type="melee">
+                    <attacks>4</attacks>
+                    <ws>3</ws>
+                    <strength>7</strength>
+                    <ap>-1</ap>
+                    <damage>2</damage>
+                </weapon>
+            </weapons>
+        </model>
+        <model name="Beast Snagga Boy" count="9">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>1</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="choppa" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>5</strength>
+                    <ap>-1</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="BOYZ" count="1">
+        <model name="Boss Nob" count="1">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>2</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="big choppa" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>7</strength>
+                    <ap>-1</ap>
+                    <damage>2</damage>
+                </weapon>
+            </weapons>
+        </model>
+        <model name="Boy" count="19">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>1</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="choppa" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>4</strength>
+                    <ap>-1</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="BOYZ" count="3">
+        <model name="Boss Nob" count="1">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>2</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="big choppa" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>7</strength>
+                    <ap>-1</ap>
+                    <damage>2</damage>
+                </weapon>
+            </weapons>
+        </model>
+        <model name="Boy" count="9">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>1</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="choppa" type="melee">
+                    <attacks>3</attacks>
+                    <ws>3</ws>
+                    <strength>4</strength>
+                    <ap>-1</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="TRUKK" count="6">
+        <model name="Trukk" count="1">
+            <movement>12</movement>
+            <toughness>8</toughness>
+            <save>4</save>
+            <wounds>10</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="big shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>3</attacks>
+                    <bs>5</bs>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="spiked wheels" type="melee">
+                    <attacks>3</attacks>
+                    <ws>5</ws>
+                    <strength>6</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="wreckin ball" type="melee">
+                    <attacks>1</attacks>
+                    <ws>4</ws>
+                    <strength>10</strength>
+                    <ap>0</ap>
+                    <damage>D6</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="MEGANOBZ" count="3">
+        <model name="Meganobz" count="2">
+            <movement>5</movement>
+            <toughness>6</toughness>
+            <save>2</save>
+            <wounds>3</wounds>
+            <leadership>7</leadership>
+            <objective-control>1</objective-control>
+            <weapons>
+                <weapon name="kustom shoota" type="ranged">
+                    <range>18</range>
+                    <attacks>4</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="power klaw" type="melee">
+                    <attacks>3</attacks>
+                    <ws>4</ws>
+                    <strength>9</strength>
+                    <ap>-2</ap>
+                    <damage>2</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="KILLA KANS" count="1">
+        <model name="Killa Kan" count="3">
+            <movement>6</movement>
+            <toughness>6</toughness>
+            <save>3</save>
+            <wounds>5</wounds>
+            <leadership>8</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="kan shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>3</attacks>
+                    <bs>4</bs>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="kan klaw" type="melee">
+                    <attacks>3</attacks>
+                    <ws>4</ws>
+                    <strength>8</strength>
+                    <ap>-2</ap>
+                    <damage>3</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="DEFF DREAD" count="1">
+        <model name="Deff Dread" count="1">
+            <movement>8</movement>
+            <toughness>9</toughness>
+            <save>2</save>
+            <wounds>8</wounds>
+            <leadership>7</leadership>
+            <objective-control>3</objective-control>
+            <weapons>
+                <weapon name="big shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>6</attacks>
+                    <bs>5</bs>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="dread klaw" type="melee">
+                    <attacks>10</attacks>
+                    <ws>3</ws>
+                    <strength>10</strength>
+                    <ap>-2</ap>
+                    <damage>3</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="DEFFKOPTAS" count="1">
+        <model name="Deffkopta" count="3">
+            <movement>12</movement>
+            <toughness>6</toughness>
+            <save>4</save>
+            <wounds>4</wounds>
+            <leadership>7</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="kopta rokkits" type="ranged">
+                    <range>24</range>
+                    <attacks>D3</attacks>
+                    <bs>5</bs>
+                    <strength>9</strength>
+                    <ap>-2</ap>
+                    <damage>3</damage>
+                </weapon>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="spinnin blades" type="melee">
+                    <attacks>6</attacks>
+                    <ws>3</ws>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="GRETCHIN" count="1">
+        <model name="Runtherd" count="1">
+            <movement>6</movement>
+            <toughness>5</toughness>
+            <save>5</save>
+            <wounds>2</wounds>
+            <leadership>7</leadership>
+            <objective-control>1</objective-control>
+            <weapons>
+                <weapon name="grot blasta" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>4</bs>
+                    <strength>3</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="slugga" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>5</bs>
+                    <strength>4</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+        <model name="Gretchin" count="11">
+            <movement>6</movement>
+            <toughness>2</toughness>
+            <save>7</save>
+            <wounds>1</wounds>
+            <leadership>8</leadership>
+            <objective-control>2</objective-control>
+            <weapons>
+                <weapon name="grot blasta" type="ranged">
+                    <range>12</range>
+                    <attacks>1</attacks>
+                    <bs>4</bs>
+                    <strength>3</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="close combat weapon" type="melee">
+                    <attacks>1</attacks>
+                    <ws>5</ws>
+                    <strength>2</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>
+    <unit name="BLITZA-BOMMER" count="1">
+        <model name="Blitza-bommer" count="1">
+            <movement>20</movement>
+            <toughness>9</toughness>
+            <save>3</save>
+            <wounds>12</wounds>
+            <leadership>7</leadership>
+            <objective-control>0</objective-control>
+            <weapons>
+                <weapon name="big shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>3</attacks>
+                    <bs>5</bs>
+                    <strength>5</strength>
+                    <ap>0</ap>
+                    <damage>1</damage>
+                </weapon>
+                <weapon name="twin supa-shoota" type="ranged">
+                    <range>36</range>
+                    <attacks>4</attacks>
+                    <bs>5</bs>
+                    <strength>6</strength>
+                    <ap>-1</ap>
+                    <damage>1</damage>
+                </weapon>
+            </weapons>
+        </model>
+    </unit>  
+</army> 
