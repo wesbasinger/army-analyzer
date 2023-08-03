@@ -4,3 +4,7 @@ class Unit:
 
         self.name = name
         self.models = []
+
+    def add_model(self, model):
+
+        self.models.append(model)

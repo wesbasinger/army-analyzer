@@ -38,6 +38,13 @@ class TestClassMethods(unittest.TestCase):
         weapon = Weapon("big shoota", "ranged", 3, 4, 5, 0, 1)
         model.add_weapon(weapon)
         self.assertIn(weapon, model.weapons)
+    
+    def test_add_model(self):
+
+        model = Model("Weirdboy", 6, 5, 5, 4, 7, 1)
+        unit = Unit("WEIRDBOY")
+        unit.add_model(model)
+        self.assertIn(model, unit.models)
 
 if __name__ == '__main__':
     unittest.main()
