@@ -7,4 +7,6 @@ class Army:
 
         self.units = []
 
-        
+    def add_unit(self, unit):
+
+        self.units.append(unit)

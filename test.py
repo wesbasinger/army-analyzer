@@ -46,5 +46,12 @@ class TestClassMethods(unittest.TestCase):
         unit.add_model(model)
         self.assertIn(model, unit.models)
 
+    def test_add_unit(self):
+
+        unit = Unit("WEIRDBOY")
+        army = Army("2K orks", 2000)
+        army.add_unit(unit)
+        self.assertIn(unit, army.units)
+
 if __name__ == '__main__':
     unittest.main()
