@@ -11,3 +11,7 @@ class Model:
         self.oc = oc
 
         self.weapons = []
+
+    def add_weapon(self, weapon):
+
+        self.weapons.append(weapon)

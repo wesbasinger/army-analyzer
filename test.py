@@ -30,6 +30,14 @@ class TestClassCreation(unittest.TestCase):
         weapon = Weapon("big shoota", "ranged", 3, 4, 5, 0, 1)
         self.assertEqual(weapon.strength, 5)
 
+class TestClassMethods(unittest.TestCase):
+
+    def test_add_weapon(self):
+
+        model = Model("Weirdboy", 6, 5, 5, 4, 7, 1)
+        weapon = Weapon("big shoota", "ranged", 3, 4, 5, 0, 1)
+        model.add_weapon(weapon)
+        self.assertIn(weapon, model.weapons)
 
 if __name__ == '__main__':
     unittest.main()
