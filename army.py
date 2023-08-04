@@ -10,3 +10,16 @@ class Army:
     def add_unit(self, unit):
 
         self.units.append(unit)
+
+    def get_total_model_count(self):
+
+        result = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                result += 1
+
+        return result
+
