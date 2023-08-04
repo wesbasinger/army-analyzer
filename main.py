@@ -64,3 +64,7 @@ for parsed_unit in parsed_units:
 print("total model count: ", army.get_total_model_count())
 print("total wound count: ", army.get_total_wounds())
 print("average toughness: ", army.get_average_toughness())
+print("average movement: ", army.get_average_movement())
+print("average save: ", army.get_average_save())
+print("average leadership: ", army.get_average_leadership())
+print("average objective control: ", army.get_average_oc())

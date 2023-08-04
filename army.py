@@ -56,3 +56,52 @@ class Army:
         
         return aggregate_toughness / self.get_total_model_count()
 
+    def get_average_movement(self):
+        
+        aggregate_movement = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                aggregate_movement += model.movement
+        
+        return aggregate_movement / self.get_total_model_count()
+
+    
+    def get_average_save(self):
+        
+        aggregate_save = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                aggregate_save += model.save
+        
+        return aggregate_save / self.get_total_model_count()
+
+    def get_average_oc(self):
+        
+        aggregate_oc = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                aggregate_oc += model.oc
+        
+        return aggregate_oc / self.get_total_model_count()
+
+    def get_average_leadership(self):
+        
+        aggregate_leadership = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                aggregate_leadership += model.leadership
+        
+        return aggregate_leadership / self.get_total_model_count()
+
