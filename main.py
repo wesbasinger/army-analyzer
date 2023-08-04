@@ -63,3 +63,4 @@ for parsed_unit in parsed_units:
 
 print("total model count: ", army.get_total_model_count())
 print("total wound count: ", army.get_total_wounds())
+print("average toughness: ", army.get_average_toughness())
