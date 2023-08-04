@@ -73,8 +73,18 @@ class TestClassMethods(unittest.TestCase):
         army.add_unit(unit)
         self.assertEqual(army.get_total_model_count(), 2)
 
+    def test_get_total_wounds(self):
 
-
+        army = Army("2K orks", 2000)
+        unit = Unit("WEIRDBOY")
+        model = Model("Weirdboy", 6, 5, 5, 4, 7, 1)
+        unit.add_model(model)
+        army.add_unit(unit)
+        unit = Unit("WEIRDBOY")
+        model = Model("Weirdboy", 6, 5, 5, 4, 7, 1)
+        unit.add_model(model)
+        army.add_unit(unit)
+        self.assertEqual(army.get_total_wounds(), 8)
 
 if __name__ == '__main__':
     unittest.main()

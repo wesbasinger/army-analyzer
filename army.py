@@ -23,3 +23,15 @@ class Army:
 
         return result
 
+    def get_total_wounds(self):
+
+        result = 0
+
+        for unit in self.units:
+
+            for model in unit.models:
+
+                result += model.wounds
+
+        return result
+
